@@ -11,7 +11,7 @@ RUN \
   git clone --single-branch --branch master https://github.com/movableink/doorman.git && \
   cd /doorman && \
   npm install && \
-  mv conf.environment.js conf.js
+  mv -vi conf.environment.js conf.js
 
 WORKDIR /doorman
 
